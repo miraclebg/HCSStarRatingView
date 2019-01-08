@@ -352,7 +352,7 @@
         if (_shouldBecomeFirstResponder && ![self isFirstResponder]) {
             [self becomeFirstResponder];
         }
-        [self _handleTouch:touch];
+        //[self _handleTouch:touch];
         return YES;
     } else {
         return NO;
